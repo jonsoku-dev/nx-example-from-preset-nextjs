@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-example/api-interface": ["libs/api-interface/src/index.ts"],
+      "@nx-example/mycoms": ["libs/mycoms/src/index.ts"],
+      "@nx-example/ui-header": ["libs/ui-header/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

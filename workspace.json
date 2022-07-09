@@ -2,7 +2,13 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "api": "apps/api",
+    "api-interface": "libs/api-interface",
+    "my-site": "apps/my-site",
+    "my-site-e2e": "apps/my-site-e2e",
+    "mycoms": "libs/mycoms",
     "next": "apps/next",
-    "next-e2e": "apps/next-e2e"
+    "next-e2e": "apps/next-e2e",
+    "ui-header": "libs/ui-header"
   }
 }
